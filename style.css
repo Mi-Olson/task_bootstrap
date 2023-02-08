@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-img-top{
+    width: 30%;
+   
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+.card-text{
+    text-align: center;
+    
+
+}
+a{
+    text-decoration-line: none;
+    margin-top: 1;
+}
