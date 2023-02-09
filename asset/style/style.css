@@ -1,0 +1,142 @@
+*{
+      font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;;
+      padding: 0px;
+      margin: 0%;
+    }
+header{
+    background-color: #fff159;
+    content: "";
+position: absolute;
+width: 100%;
+height: 100px;
+left: 0;
+top: 0;
+box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
+ }
+ header .container{
+    margin-top: 10px;
+    padding: 0px
+ }
+ header  .row{
+    margin-top: 10px;
+ }
+ header .promo-sup{
+    width: 90%;
+    height: auto;
+     
+}
+
+header .nav-link{
+    font-size: 13px;
+    color: #857f43;
+    padding-right:1%;
+    padding-left: 0rem;
+    margin-right: 1rem;
+ }
+ header .nav-link:hover{
+    color:header 
+    
+    
+}
+  
+ header a:hover{
+
+    color:#474637;
+
+}
+header .active{
+    color: #404040;
+}
+header .input-group-text{
+    background-color: #ffffff;
+    border-radius: 0rem;
+   
+}
+ 
+header .input-group{
+ 
+box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
+background-color: white;
+}
+header .form-control::placeholder {
+    color: rgba(0,0,0,0.25);
+    font-size: 1rem;
+}
+header .form-control {
+    border-radius: 0px;
+    border: 0px;
+}
+#search-addon{
+     
+    border: 0px;
+}
+#search-addon::before{
+    position: absolute;
+top: 7px;
+background-color: white;
+right: 40px;
+height: 25px;
+content: "";
+border-left: 1px solid #e6e6e6;
+}
+header .nav2{
+    color: #33383a;
+}
+header .menu-desplegable{
+    top: 92px !important;
+    left: -95px !important; 
+    background-color: #333333;
+     
+}
+header .dropdown-item{
+    color: #e6e6e6;
+    
+}
+ 
+
+header .dropdown-item:focus, .dropdown-item:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #3483fa;}
+
+ 
+    header .nav-menu-locacion-send{
+    position: absolute;
+left: 40px;
+top: 5px;
+font-size: 0.8rem;
+}
+header .nav-menu-locacion-city{
+    
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    color: #333333;
+}
+header .locacion{
+    width:30px;
+     height:35px;
+     margin-left: 10px;
+     padding-bottom: 5%;
+     padding-top: 2%;
+}
+header .nav-link-location{
+
+    font-size: 13px;
+    color: #736c28;
+    padding-right:1%;
+    padding-left: 0rem;
+    margin-right: 1rem;
+    padding-bottom: 6%;
+    margin-top: 2%;
+ }
+ 
+ header .nav-link-location:hover{
+   
+    border: rgb(115, 108, 40,0.1) 1px   solid ;
+    border-radius: 6px 6px 6px 6px;
+    width: 67%;
+height: 90%;
+   
+     
+}
