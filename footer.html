@@ -19,35 +19,34 @@
     <!-- primer bloque -->
     <div class="d-flex m-3 justify-content-around ">
 
-        <div class="card" style="width: 18rem;">
+        <div class="card" id="card" style="width: 18rem;">
             <img src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/ecosystem/payment.svg"
                 class="card-img-top mt-2" alt="...">
-            <div class="card-body">
+            <div class="card-body" id="card-body">
                 <h5 class="card-title">Elegí cómo pagar</h5>
-                <p class="card-text">Podés pagar con tarjeta, débito, efectivo o hasta 12 cuotas sin tarjeta con Mercado
+                <p class="card-text" id="card-text">Podés pagar con tarjeta, débito, efectivo o hasta 12 cuotas sin
+                    tarjeta con Mercado
                     Crédito.</p>
-                <a href="#" class="btn btn-primary">Cómo pagar tus compras</a>
+                <a href="#">Cómo pagar tus compras</a>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/ecosystem/payment.svg"
+        <div class="card" id="card-medio" style="width: 18rem;">
+            <img src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/ecosystem/shipping.svg"
                 class="card-img-top mt-2" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Elegí cómo pagar</h5>
-                <p class="card-text">Podés pagar con tarjeta, débito, efectivo o hasta 12 cuotas sin tarjeta con Mercado
-                    Crédito.</p>
-                <a href="#" class="btn btn-primary">Cómo pagar tus compras</a>
+            <div class="card-body" id="card-body">
+                <h5 class="card-title">Envío gratis desde $ 8.000</h5>
+                <p class="card-text" id="card-text">Solo por estar registrado en Mercado Libre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+                <a href="#">Conocé más sobre este beneficio</a>
             </div>
 
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/ecosystem/payment.svg"
+        <div class="card " id="card" style="width: 18rem;">
+            <img src="	https://http2.mlstatic.com/storage/homes-korriban/assets/images/ecosystem/protected.svg"
                 class="card-img-top mt-2" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Elegí cómo pagar</h5>
-                <p class="card-text">Podés pagar con tarjeta, débito, efectivo o hasta 12 cuotas sin tarjeta con Mercado
-                    Crédito.</p>
-                <a href="#" class="btn btn-primary">Cómo pagar tus compras</a>
+            <div class="card-body" id="card-body">
+                <h5 class="card-title text-center">Seguridad, de principio a fin</h5>
+                <p class="card-text" id="card-text">¿No te gusta? ¡Devolvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegido.</p>
+                <a  class="text-center" href="#">Cómo te protegemos</a>
             </div>
 
 
@@ -55,26 +54,123 @@
     </div>
 
     <!-- segundo bloque -->
-    <div class="container text-center  ">
+    <div class="container mt-5 mb-5 text-center  ">
         <div class="row justify-content-between ">
             <div class=" card col-5 align-items-center">
                 <h5 class="text-muted"><small>Botón de arrepentimiento</small></h5>
 
                 <p class="mb-0"><a href="">Cancelar una compra</a></p>
-                <p  class="mb-0"><a href="">Cancelar una suscripción</a></p>
-                <p  class="mb-0"><a href="">Cancelar un seguro o garantía</a></p>
+                <p class="mb-0"><a href="">Cancelar una suscripción</a></p>
+                <p class="mb-0"><a href="">Cancelar un seguro o garantía</a></p>
             </div>
-           
-                <div class=" card col-5 align-items-center">
-                    <h5 class="text-muted"><small>Botón de arrepentimiento</small></h5>
-    
-                    <p  class="mb-0"><a href="">Cancelar una compra</a></p>
-                    <p  class="mb-0"><a href="">Cancelar una suscripción</a></p>
-                    <p  class="mb-0"><a href="">Cancelar un seguro o garantía</a></p>
-                </div>
-           
+
+            <div class=" card col-5 align-items-center">
+                <h5 class="text-muted"><small>Conocé las normas que aplican cuando comprás</small></h5>
+
+                <p class="mb-0"><a href="">Ver contratos de adhesión - Ley N.º 24.240 de Defensa del Consumidor</a></p>
+                <!-- <p class="mb-0"><a href="">Cancelar una suscripción</a></p>
+                <p class="mb-0"><a href="">Cancelar un seguro o garantía</a></p> -->
+            </div>
+
         </div>
     </div>
+  <div class="container text-center">
+    <div class="dropdown" data-bs-theme="light">
+        <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButtonLight"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Mas Informacion
+        </button>
+        
+        <ul class="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButtonLight">
+            <li>
+                <table class="table text-center" id="tablaM">
+                    <thead>
+                        <tr>
+                            <th scope="col">Acerca de</th>
+                            <th scope="col">Otros sitios</th>
+                            <th scope="col">Ayuda</th>
+                            <th scope="col">Redes sociales</th>
+                            <th scope="col">Mi cuenta</th>
+                            <th scope="col">Mercado Puntos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mercado Libre</td>
+                            <td>Developers</td>
+                            <td>Comprar</td>
+                            <td>Twitter</td>
+                            <td>Ingresá</td>
+                            <td>Nivel 6</td>
+                        </tr>
+                        <tr>
+                            <td>Investor relations</td>
+                            <td>Mercado Pago</td>
+                            <td>Vender</td>
+                            <td>Facebook</td>
+                            <td>Vender</td>
+                            <td>Disney+</td>
+                        </tr>
+                        <tr>
+                            <td>Tendencias</td>
+                            <td>Mercado Shops</td>
+                            <td>Resolución de problemas</td>
+                            <td>Instagram</td>
+                            <td></td>
+                            <td>Star+</td>
+                        </tr>
+                        <tr>
+                            <td>Sustentabilidad</td>
+                            <td>Mercado Envíos</td>
+                            <td>Centro de seguridad</td>
+                            <td>YouTube</td>
+                            <td></td>
+                            <td>HBO MAX</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Mercado Ads</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Paramount+</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+
+        </ul>
+        
+    </div>
+</div>
+<ul class="nav " id="nav_m" >
+    <li class="nav-item">
+      <a class="nav-link disabled" aria-current="page" href="#">trabajá con nosotros</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Términos y condiciones</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Cómo cuidamos tu privacidad</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled"href="#">Accesibilidad</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Informacion al usuario</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Ayuda</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Defensa al consumidor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Información sobre seguros</a>
+      </li>
+  </ul>
+
+
 
 
 
